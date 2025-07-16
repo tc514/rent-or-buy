@@ -269,7 +269,7 @@
             buyTotalDiv.textContent = 'Total Buy Cost: ' + formatCurrency(buy.netCost);
             var rec = '';
             if (totalRent < buy.netCost) {
-                rec = 'Better to Rent';
+                rec = 'Better to Rent!';
             } else if (buy.netCost < totalRent) {
                 rec = 'Better to Buy';
             } else {
