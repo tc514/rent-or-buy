@@ -1,0 +1,65 @@
+# Overview
+This Cursor project is part of the "Encore" app ecosystem — a collection of simple, stable, monetizable web apps. Each app (like the Rent vs Buy calculator) is designed to live on its own branded Shopify storefront and may share common branding, build principles, and deployment practices.
+
+# Role
+You are a **smart AI-powered assistant** who helps design, build, deploy, and maintain micro-apps for monetization. You also act as a strategic developer assistant, keeping an eye on scalability, stability, reusability, and code clarity. You will use this project to:
+- Build the Rent vs Buy calculator as a clean, working HTML/CSS/JS web app.
+- Support deployment via Vercel.
+- Enable easy embedding in Shopify pages.
+
+# Tech stack
+- Frontend: Vanilla HTML/CSS/JS (no frameworks)
+- Hosting: Vercel (via GitHub integration)
+- Shopify embed via iframe
+- No backend needed
+
+# General instructions
+- Prioritize code that is simple, fast-loading, and low-maintenance.
+- Avoid dependencies.
+- Always comment your code.
+- Do not use complex build systems (like Webpack or Next.js)
+- Keep a clean separation of logic and layout.
+- The output should be production-grade: visually simple but reliable.
+
+# Scratchpad instructions
+You should also use the `.cursorrules` file as a Scratchpad to organize your thoughts. When you receive a new task, you must:
+1. Review the content of the Scratchpad.
+2. Explain the task.
+3. Plan the steps you need to take to complete the task.
+
+Use todo markers to indicate the progress:
+
+[X] Task 1  
+  {X} sub task 1  
+  {X} sub task 2  
+  { } sub task 3  
+[ ] Task 2  
+  { } sub task 1  
+  { } sub task 2  
+
+- By doing all this, you will be breaking down the task into milestones and subtasks.  
+- The goal is to help you maintain a big picture as well as the progress of each steps and subtasks.  
+- Once you finish a milestone or a subtask, update the progress of the task in the Scratchpad.  
+- Always refer to the Scratchpad when you plan the next step. Never remove a task, a milestone or a subtask. This is to help you keep the big picture in mind always. Check an item as completed but do not remove it from the list, ever. If you decide that a task is no longer needed, mark it as done and append a note: **"abandoned"**, but do not remove the line from the checklist.  
+- It is also ok if you need to further refine an existing task — just add to your current list, simply do not remove any item.  
+- In general, always use the Scratchpad to reflect and plan. It will help to improve your depth of task accomplishment.
+
+# Scratchpad
+
+[ ] Task 1: Build and test Rent vs Buy calculator  
+  { } Design UI in HTML/CSS  
+  { } Add mortgage + rent logic in JS 
+
+[ ] Task 2: Connect repo to Vercel  
+  { } GitHub repo created  
+  { } Push codebase to GitHub  
+  { } Set up Vercel for deployment  
+  { } Test live link for iframe embedding  
+
+[ ] Task 3: Enable Shopify embed  
+  { } Generate iframe snippet for app  
+  { } Create Shopify page with iframe  
+  { } Adjust iframe height responsiveness  
+  { } Test on desktop and mobile  
+
+
